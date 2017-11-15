@@ -22,4 +22,4 @@ the 'new' keyword allows us to instantiate a new object, it serves as a template
 - we can declare inline styles in our HTML elements simply using <img style="max-height: 50px;">
 
 * These are the main points of data manipulation, traversing, and displaying that I learned in this project
-ANGULAR NOTE: Use the CLI! It's super easy, creates a template for you, and automatically adds your component as an import in your @ngModule root module component, which is what gives your HTML files access to the data in your component files 
+- ANGULAR NOTE: Use the CLI! It's super easy, creates a template for you, and automatically adds your component as an import in your @ngModule root module component, which is what gives your HTML files access to the data in your component files 
