@@ -2,6 +2,10 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 import {Recipe} from '../recipe.model';
 
+// the @Component is a decorator; decorators contain meta-data about a component;
+// meta-data is just additional information that the file needs in order 
+// to CONFIGURE the BEHVIOR of the component.
+// from Angular - Decorators are functions that modify JavaScript CLASSES
 @Component({
   selector: 'app-recipe-list',
   templateUrl: './recipe-list.component.html',
