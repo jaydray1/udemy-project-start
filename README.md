@@ -19,8 +19,7 @@ the 'new' keyword allows us to instantiate a new object, it serves as a template
 - we use *ngFor to 'for-loop' through our object array that we created in the component...we then access the key:value pairs in the array object by using
 {{ string interpolation.name }} string interpolation allows us to display data on the DOM through an HTML element 
 - we can also use property binding to bind data to an HTML object property, like the <img [src]="recipe.ImagePath" alt="{{recipe.name}}> and then string interpolation on a property to grab the .name data of our *ngFor directive 
-- we can declare inline styles in our HTML elements simply using 
-<img style="max-height: 50px;">
+- we can declare inline styles in our HTML elements simply using <img style="max-height: 50px;">
 
 * These are the main points of data manipulation, traversing, and displaying that I learned in this project
 ANGULAR NOTE: Use the CLI! It's super easy, creates a template for you, and automatically adds your component as an import in your @ngModule root module component, which is what gives your HTML files access to the data in your component files 
